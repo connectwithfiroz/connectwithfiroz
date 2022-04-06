@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>FlaotingLable</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+	<div class="createForm ">
+		<form autocomplete="off" action="php/createAccount.php"  method="post" onsubmit="return formValFun()">
+			<fieldset>
+			<legend>Create Account</legend>
+			<input type="text" name="rName" id="name" pattern="[a-zA-Z][a-zA-Z ]{2,}" placeholder="Name" required="" title="Must Contain Only Alphabet">
+			<label for="name">Name</label>
+			<!-- input must contain characters followed by an @ sign, followed by more characters, and then a "." -->
+			<!-- for email -->
+			<input type="email" name="rEmail" id="email" placeholder="Email" required="" title="Enter your email. ALL	CHARACTER IN LOWER CASE  like- abc@xyz.com. " pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" autocomplete="off">
+			<label for="email">Email</label>
+			<!-- OR PASSWORD -->
+			<input type="Password" name="rPassword" id="password" placeholder="Password"  onkeyup="validatePass(this)" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required="">
+			<label for="userName">Password</label>
+			<b id="showIcon" onclick="showHidePass(this,'password')">Show</b>
+			<!-- PASSWORD INFOBOX -->
+			<div id="createFormPassMsgBox" class="msgBox">
+				<p class="txt-center">Password Must Contain</p>
+				<p class="validateInfo" id="pswCapErrorMsg">At least one uppercase letter.</p>
+				<p class="validateInfo" id="pswLowErrorMsg">At least 1 lowercase letter.</p>
+				<p class="validateInfo" id="pswNumErrorMsg">At least 1 number.</p>
+				<p class="validateInfo" id="pswSymErrorMsg">Doesn't Contiane Special Character</p>
+				<p class="validateInfo" id="pswLenErrorMsg">At least 8 character.</p>
+			</div>
+			<!-- CONFIRM PASSWORD -->
+			<input type="Password" id="confirmPassword" placeholder="Confirm Password"   onkeyup="matchPass(this)" title="Password must be same as above input box." required="">
+			<label for="userName">Confirm Password</label>
+			<b id="showIcon2" onclick="showHidePass(this,'confirmPassword')">Show</b>
+
+			<!-- password Confirm Msg -->
+			<p class="validateInfo errorMsg cnfPassErrorMsg" id="cnfPassErrorMsg">Password Match</p>
+			<p class="validateInfo" id="glbErrorMsg"></p>
+			<!-- SUBMIT BUTTON -->
+			<input type="submit" value="SignIn">
+			<!-- TOGGLE LOGIN/SIGNUP BUTTON -->
+			<p class="accountInfo" onclick="showLoginForm()">Already I've an account.<b><a href="login.php">Login</a></b></p>
+			</fieldset>
+		</form>
+	</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

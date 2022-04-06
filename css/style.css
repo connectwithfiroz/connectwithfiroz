@@ -1,0 +1,109 @@
+body{
+	margin: 0;
+	text-align: center;
+	font-family: 'Marriweather',Helvetica,cursive,sans-serif;
+	/*if Marriweather font not find then check for 
+	Helvetica and so on.*/
+}
+h1{
+font-family: 'Sofia', cursive;	color: #4f8;
+	font-size: 2.5rem;
+}
+h2{
+	font-weight: normal;
+	font-size: 2rem;
+	color: #00adff;
+}
+h3{
+	font-family: monospace;
+	font-size: 1.5em;
+	color: #00adff;
+}
+
+
+.top-container{
+	background-color: #fff;	
+	position: relative;
+	padding-top: 90px;
+}
+a{
+	text-decoration: none;
+	cursor: pointer;
+}
+.project-name{
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 130%;
+    color: #00adff;
+    padding-right: 2px;
+    text-transform: capitalize;
+}
+.project-name a:visited{
+    color:#00adff;
+}
+.pro{
+	text-decoration: underline;
+	color: #4f8;
+}
+.top-cloud{
+	position: absolute;
+	width: 20%;
+	right: 10%;
+	top: 20px;
+}
+.bottom-cloud{
+	position: absolute;
+	width: 20%;
+	left: 10%;
+	top: 100px;
+}
+.mountain-img{
+	width: 100%;
+}
+.skills{
+	position: relative;
+}
+.skill-row{
+	width: 80%;
+	margin: 10px auto;
+	text-align: left;
+	line-height: 2;/*line height doesn't need unit*/
+	overflow: auto;/*when content of div is overflow*/
+}
+div.skill-row>img{
+	margin-right: 10px;
+	width: 25%;
+	float: left;
+}
+div.skill-row:nth-child(2)>img{
+	margin-right: 10px;
+	width: 25%;
+	float: right;
+}
+
+.middle-container{
+
+}
+.bottom-container{
+	background-color: #4f8;	
+	height: 6	0px;
+	padding: 10px;
+}
+.bottom-container a{
+	text-decoration: none;
+	color: #00adff;
+	font-size: 1em;
+	padding: 5px 10px;
+	line-height: 2;
+}
+.bottom-container a:hover{
+	color: #fff;
+}
+.bottom-container span{
+	display: block;
+	padding: 5px;
+	color: #fff;
+}
+.pesonalInfo p{
+	font-family: 'Cedarville Cursive', cursive;
+}

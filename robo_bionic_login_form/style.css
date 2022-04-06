@@ -1,0 +1,153 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;	
+	font-family: sans-serif;
+}
+body{
+
+	background: #000;
+	display: grid;
+	align-content: center;
+}
+.container{
+	position: relative;
+	top: 150px;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: #fff;
+	max-width: 350px;
+}
+.loginForm{
+	position: absolute;
+
+}
+.createForm{
+	position: absolute;
+	height: 350px;
+}
+#createFormPassMsgBox{
+	margin-bottom: 20px;
+}
+fieldset{
+	padding: 20px;
+}
+legend{
+	font-size: 22px;
+	padding: 2px;
+}
+input{
+	display: inline-block;
+	width: 90%;
+	height: 30px;
+	background: none;
+	outline: none;
+	padding: 2px 5px;
+	margin: 5px;
+	border: none;
+	border: 2px solid #fff;
+	border-radius: 5px;
+	color: 
+	#fff;
+	font-size: 20px;
+}
+input:focus{
+	background: none;
+}
+form label{
+	display: inline-block;
+	margin: 5px;
+	position: relative;
+	top: -36px;
+	left: 7px;
+	font-size: 20px;
+	transition: top .5s ease-out,font-size .5s ease-out;
+}
+/*addevent*/
+input:focus + label,input:not(:placeholder-shown)+label{
+	top: -62px;
+	font-size: 18px;
+}
+
+input[type="submit"]{
+	font-size: 22px;
+	height: 40px;
+	width: 100px;
+	padding: 5px;
+	text-align: center;
+	display: block;
+	background: none;
+	border: transparent;
+	color: #fff;
+	border: 2px solid #fff;
+	border-radius: 5px;	
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+}
+input[type="submit"]:hover{
+	background: #fff;
+	color: #000;
+}
+.validateInfo{
+	color: #bbb;
+}
+.accountInfo{
+	text-align: center;
+	color: #bbb;
+	cursor: pointer;
+}
+.valid{
+	color: green;
+}
+.valid:before{
+	content: "✔";
+	left: -15px;
+}
+.inValid{
+	color: red;
+}
+.inValid:before{
+	content: "✖";
+	left: -15px;
+}
+
+/*hide pass math box*/
+.msgBox,.cnfPassErrorMsg{
+	display: none;
+}
+.errorMsg{
+	position: relative; top: -30px;
+}
+.showMsgBox{
+	display: block;
+}
+#showIcon,#showIcon2{
+    position: relative;
+    top: -37px;
+    left: 126px;
+    cursor: pointer;
+    background-color: #000;
+}
+#showIcon2{
+    top: -37px;
+    left: 52px;
+}
+
+
+.txt-center{
+	text-align: center;
+}
+.d-none{
+	display: none;
+}
+label{
+	z-index: -1;
+}
+/*remove autofill*/
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+}

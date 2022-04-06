@@ -1,0 +1,5 @@
+<div class="mobile-menu">
+    <span class="line line-top"></span>
+    <span class="line line-bottom"></span>
+</div>
+is used to create mobile menu icon and close icon with same element

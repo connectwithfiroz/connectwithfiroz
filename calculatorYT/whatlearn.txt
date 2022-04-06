@@ -1,0 +1,5 @@
+//left- 9:00
+for backspace
+1.fistly covert comma seprated value into normal number formate
+2. convert number into substring and decrise length-1
+# eval() =  function evalue expression like eval(45+3*5)

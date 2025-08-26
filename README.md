@@ -1,5 +1,5 @@
 - 👋 Hi, I’m Firoz Ansari
-- 👀 I’m interested in developed web application and listening music after work.
+- 👀 I’m interested in developed web application and listening music.
 - 🌱 I’m currently learning Full Stack Web Development.
 - 💞️ I’m looking to collaborate on ...
 

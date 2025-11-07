@@ -31,4 +31,4 @@ Full-stack web developer (PHP / Laravel) and product maker. I build web apps and
 ![Stats](https://github-readme-stats.vercel.app/api?username=connectwithfiroz&show_icons=true)
 
 ### 🤝 Let’s connect
-If you like my work or want to collaborate — open an issue on any repo, or drop an email: **your.email@example.com**
+If you like my work or want to collaborate — open an issue on any repo, or drop an email: **contacttofiroz@gmail.com**

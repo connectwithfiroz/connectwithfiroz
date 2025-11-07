@@ -6,7 +6,7 @@ Full-stack web developer (PHP / Laravel) and product maker. I build web apps and
 - 🔭 I’m currently building: **Tutizo** (tutor-student matchmaking) and improving **Qnote**.
 - 🌱 Learning: React, AI/ML integration, and modern DevOps practices.
 - 💼 Experience: 3+ years as Laravel Full Stack Developer.
-- 📫 Reach me: **your.email@example.com** | [LinkedIn](https://www.linkedin.com/in/hifiroz)
+- 📫 Reach me: **contacttofiroz@gmail.com** | [LinkedIn](https://www.linkedin.com/in/hifiroz)
 
 ### 🛠️ Tech & Tools
 **Languages:** PHP, JavaScript, SQL, Python  

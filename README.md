@@ -1,12 +1,12 @@
 # Hi 👋 I'm Firoz Ansari
 
-### 🚀 About Me
+### About Me
 Full-stack web developer (PHP / Laravel) and product maker. I build web apps and side-products like QuizSagar, Qnote and TadkaZone. Passionate about clean code, scalable systems, and practical AI integration.
 
 - 🔭 I’m currently building: **Tutizo** (tutor-student matchmaking) and improving **Qnote**.
 - 🌱 Learning: React, AI/ML integration, and modern DevOps practices.
 - 💼 Experience: 3+ years as Laravel Full Stack Developer.
-- 📫 Reach me: **your.email@example.com** | [LinkedIn](https://www.linkedin.com/in/yourprofile)
+- 📫 Reach me: **your.email@example.com** | [LinkedIn](https://www.linkedin.com/in/hifiroz)
 
 ### 🛠️ Tech & Tools
 **Languages:** PHP, JavaScript, SQL, Python  
@@ -27,8 +27,8 @@ Full-stack web developer (PHP / Laravel) and product maker. I build web apps and
 
 ### 📈 Github Stats
 <!-- You can paste GitHub stats cards here (optional) -->
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=your-username&layout=compact)
-![Stats](https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=connectwithfiroz&layout=compact)
+![Stats](https://github-readme-stats.vercel.app/api?username=connectwithfiroz&show_icons=true)
 
 ### 🤝 Let’s connect
 If you like my work or want to collaborate — open an issue on any repo, or drop an email: **your.email@example.com**
